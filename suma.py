@@ -1,7 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-class suma:
+import webapp
+
+class suma(webapp.app):
 
     def parse(self, request, rest):
         
@@ -27,5 +29,5 @@ class suma:
         return("200 OK",
                "<html><body>" +
                "<h1>" + resultado +"</h1>" +
-               "</body></html>")         
+               "</body></html>")                 
 
