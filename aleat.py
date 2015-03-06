@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import random
+import webapp
 
-class aleat:
+class aleat(webapp.app):
     
     def parse(self, request, rest):
         
