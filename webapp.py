@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import socket
-import hola
-import aleat
-import suma
 
 class app:
 
@@ -59,10 +56,6 @@ class webApp:
 if __name__ == "__main__":
     anApp = app()
     otherApp = app()
-    holaApp = hola.hola()
-    adiosApp = hola.adios()
-    aleatApp = aleat.aleat()
-    sumaApp = suma.suma()
 
     testWebApp = webApp("localhost", 1234, {'/app': anApp,
-    '/other': otherApp, '/hola': holaApp, '/adios': adiosApp, '/aleat/': aleatApp, '/suma/': sumaApp})
+    '/other': otherApp})
